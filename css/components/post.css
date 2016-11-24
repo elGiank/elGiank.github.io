@@ -1,0 +1,59 @@
+#articles {
+  background: -webkit-linear-gradient(right, #185a9d, #2BC0E4);
+  background: linear-gradient(to left, #185a9d, #2BC0E4);
+  color: #fbfbfb;
+  padding-top: 56px;
+  padding-bottom: 100px; }
+
+.my-articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media only screen and (min-width: 1000px) {
+    .my-articles {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.article {
+  max-width: 300px;
+  text-align: center;
+  margin-bottom: 3rem; }
+  @media only screen and (min-width: 1000px) {
+    .article {
+      margin-bottom: 0; } }
+  .article:last-child {
+    margin-bottom: 0; }
+
+.article__header {
+  position: relative;
+  height: 200px; }
+
+.article__header--hackaton {
+  background: url(http://www.belatrixsf.com/images/Hackatrix_Lima_2016_news.jpg) no-repeat center;
+  background-position-x: -163px;
+  background-position-y: -330px; }
+
+.article__header--responsive {
+  background: url(https://developers.google.com/webmasters/mobile-sites/imgs/mobile-seo/viewport.png) no-repeat center;
+  background-size: cover; }
+
+.article__header--from-home {
+  background: url(https://cdn-images-1.medium.com/max/600/1*-31woJP6FKN3RpJnmqL-ow.jpeg) no-repeat center;
+  background-position-x: -72px; }
+
+.article_title {
+  line-height: 2.25rem;
+  text-align: center;
+  font-weight: 400; }
